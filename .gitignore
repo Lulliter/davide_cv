@@ -1,3 +1,14 @@
+# PRIVATE
+ZETY/*
+zzz_source/*
+# Ignore everything in the data/ folder
+data/*
+# Except the files you want to keep
+!data/skill_ita.csv
+!data/work_ita.csv
+!data/service_ita.csv
+!data/edu_ita.csv
+
 # History files
 .Rhistory
 .Rapp.history
