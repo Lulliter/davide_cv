@@ -162,6 +162,7 @@ work %>%
 
 
 ## Percorso formativo
+<!-- convert **bold** to Typst *bold* in R -->
 
 ```{r}
 #| output: asis
@@ -171,19 +172,18 @@ educ_manual <- tibble::tribble(
 	~start_year, ~start_month, ~end_year, ~end_month, ~area, ~detail1, ~detail2, ~detail3,
 	 2000, 01, 2005, 11, 
 	"Formazione manageriale (vari corsi)", 
-	"Corso Controllo di Gestione e Contabilità [certificato] -- **Associazione Piccole Imprese (API)**, Udine",
-	"Corso operatori in commercio estero [certificato] -- **Camera di Commercio di Venezia (CCIAA)**, Venezia", 
-	"Percorso formativo per giovani imprenditori [certificato] -- **Scuola di Impresa (CDO), Bologna**",
+	"Corso Controllo di Gestione e Contabilità [certificato] -- *Associazione Piccole Imprese (API)*, Udine",
+	"Corso operatori in commercio estero [certificato] -- *Camera di Commercio di Venezia (CCIAA)*, Venezia", 
+	"Percorso formativo per giovani imprenditori [certificato] -- *Scuola di Impresa (CDO)*, Bologna",
 	
 	1995, 03, 1995, 06,
 	"Inglese commerciale",
-	"_Full immersion English training_ [diploma]-- **The Manchester Academy**, Manchester, UK", NA, NA
+	"_Full immersion English training_ [diploma]-- *The Manchester Academy*, Manchester, UK", NA, NA
 	,
 	1984, 09, 1990, 06,
 	"Istruzione superiore",
-	"Triennio (serale) -- **Istituto Tecnico per Geometri “G.Massari”, Mestre**",
-	"Biennio -- **Istituto Tecnico Industriale Statale “A.Righi”, Chioggia**",
-	NA	) %>% 
+	"Triennio (serale) -- *Istituto Tecnico per Geometri “G.Massari”*, Mestre",
+	"Biennio -- *Istituto Tecnico Industriale Statale “A.Righi”*, Chioggia",	NA	) %>% 
 	filter(start_year > 1984)
 ```
 

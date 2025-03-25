@@ -1,0 +1,13 @@
+project:
+  type: default
+
+# render:
+  # - "resume.qmd"         # render only qmd files anywhere in the project
+  # - "resume_nofoto.qmd"
+  # - "!ZETY/**"
+  # - "!data/**"
+  # - "!zzz_source/**"
+  # - "!**/*.Rmd"        # exclude all Rmd files, even if nested
+  # - "!**/*.rmd"        # exclude lowercase too, just in case
+
+title: "Resume of Davide"
