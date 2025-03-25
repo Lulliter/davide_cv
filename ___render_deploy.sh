@@ -15,7 +15,7 @@ git add images/*
 
 git commit -m "small tweaks"
 # git commit -m "revision INSTALL + cleanup slides 2"  -m "01_... + 00_carico_tab-contesto.qmd "
-git commit -m "skills into details"
+git commit -m "finished 1p resume"
 # Push local source (master branch) to remote reference (origin)
 #cd .
 git push origin master
